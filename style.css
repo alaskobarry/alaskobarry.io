@@ -1,0 +1,133 @@
+body {
+    background-color: #8ba1bb;
+    font-family: Arial;
+    margin: 0;
+}
+div.categorie{
+    text-align: center;
+}
+div.contenu{
+    background-color: white;
+    margin: -30px 10% 80px 10%;
+    padding: 30px;
+    min-width: 340px;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1213);
+}
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: -1px;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 12.5px;
+}
+div.description{
+    text-align: center;
+}
+p.categorie {
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    margin-left: 0px;
+    display: inline-block;
+    padding: 6px 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.separateur{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 130px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.taille{
+    width: 100%;
+    display: block;
+    max-height: 500px;
+    object-fit: cover;
+    min-height: 200px;
+}
+div.info{
+    position: relative;
+}
+table.info{
+    bottom: 0; 
+    width: 100%;
+    color: white; 
+    background-color: #6c829dc0; 
+    height: 70px;
+}
+table.info td {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.info th {
+    text-align: center;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+
+div.colonne{
+    width: 45%;
+    margin-top: 20px;
+}
+.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6c829d;
+    padding-bottom: 5px;
+}
+
+div.colonne1{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+div.colonne2{
+    float: right;
+}
+div.ingredients p {
+    border: 1px solid lightgray;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+table.preparation p.numero{
+    background-color: #6c829d;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+
+table.preparation td{
+    vertical-align: top;
+}
+
+td.preparations_{
+    padding-left: 10px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+table.preparation tr{
+    height: 45px;
+}
+
+* {
+    overflow: auto;
+}
